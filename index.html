@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Daily Portfolio - Personal Edition</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config = { theme: { extend: { colors: { primary: '#1a1a1a', secondary: '#4a4a4a' }, borderRadius: { 'none': '0px', 'sm': '4px', DEFAULT: '8px', 'md': '12px', 'lg': '16px', 'xl': '20px', '2xl': '24px', '3xl': '32px', 'full': '9999px', 'button': '8px' } } } }</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Courier+Prime:wght@400;700&family=Crimson+Text:wght@400;600&display=swap"
+        rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+</head>
+
+<body class="paper-texture">
+    <header class="masthead">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="py-4 border-b border-gray-300">
+                <div class="flex justify-between items-center">
+                    <div class="typewriter-text text-sm">Wednesday, July 23, 2025</div>
+                    <div class="typewriter-text text-sm">Personal Edition • Vol. 1, No. 1</div>
+                </div>
+            </div>
+            <div class="py-6 text-center">
+                <h1 class="serif-heading text-5xl md:text-7xl font-black text-primary tracking-wider">
+                    THE DAILY PORTFOLIO
+                </h1>
+                <div class="mt-2 text-sm typewriter-text tracking-widest">
+                    "ALL THE NEWS THAT'S FIT TO CODE"
+                </div>
+            </div>
+            <nav class="py-4 border-t border-gray-300">
+                <div class="flex justify-center space-x-8">
+                    <a href="#about"
+                        class="crimson-text text-lg font-semibold hover:text-secondary transition-colors">THE ABOUT
+                        TIMES</a>
+                    <a href="#projects"
+                        class="crimson-text text-lg font-semibold hover:text-secondary transition-colors">PROJECT
+                        BULLETIN</a>
+                    <a href="#contact"
+                        class="crimson-text text-lg font-semibold hover:text-secondary transition-colors">CONTACT
+                        CLASSIFIEDS</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        <section id="hero" class="mb-16">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="md:col-span-2">
+                    <div class="border-b-2 border-primary mb-4">
+                        <h2 class="serif-heading text-4xl md:text-5xl font-black text-primary mb-2">
+                            BREAKING: Local Developer Creates Stunning Digital Experiences
+                        </h2>
+                        <div class="typewriter-text text-sm mb-2">By Staff Reporter • Technology Desk</div>
+                    </div>
+                    <div class="newspaper-column crimson-text text-lg leading-relaxed">
+                        <span class="drop-cap serif-heading text-primary">I</span>n an unprecedented display of
+                        creativity and technical prowess, a local full-stack developer has been making waves in the
+                        digital landscape with innovative solutions that bridge the gap between aesthetic design and
+                        functional programming. Sources close to the developer report a passion for creating user
+                        experiences that not only meet business objectives but exceed user expectations through
+                        thoughtful design and meticulous attention to detail. The developer's portfolio showcases a
+                        diverse range of projects spanning e-commerce platforms, content management systems, and
+                        interactive web applications, each demonstrating a unique blend of modern technology and
+                        timeless design principles.
+                    </div>
+                </div>
+                <div class="md:col-span-1">
+                    <img src="https://readdy.ai/api/search-image?query=professional%20black%20and%20white%20portrait%20of%20a%20confident%20software%20developer%20in%20vintage%20newspaper%20style%2C%20clean%20background%2C%20high%20contrast%20lighting%2C%20editorial%20photography%20style%2C%201980s%20aesthetic&width=400&height=500&seq=hero-portrait&orientation=portrait"
+                        alt="Developer Portrait" class="w-full vintage-photo object-cover object-top">
+                    <div class="mt-2 text-center typewriter-text text-sm">
+                        Lead Developer at work in the digital newsroom
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="mb-16 page-turn">
+            <div class="border-t-4 border-primary pt-8">
+                <div class="mb-8">
+                    <h2 class="serif-heading text-4xl font-black text-primary mb-2 typewriter-animation">
+                        THE ABOUT TIMES
+                    </h2>
+                    <div class="typewriter-text text-sm text-secondary">
+                        Personal Interest • Human Resources Department
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="md:col-span-3">
+                        <div class="crimson-text text-lg leading-relaxed mb-6">
+                            <span class="drop-cap serif-heading text-primary">M</span>eet Sarah Chen, a passionate
+                            full-stack developer with over 6 years of experience crafting digital solutions that make a
+                            difference. Based in San Francisco, Sarah specializes in React, Node.js, and modern web
+                            technologies, with a particular focus on creating accessible and performant applications.
+                        </div>
+                        <div class="classified-box p-6 mb-6">
+                            <h3 class="serif-heading text-2xl font-bold mb-4">EXCLUSIVE INTERVIEW</h3>
+                            <blockquote class="crimson-text text-lg italic border-l-4 border-primary pl-4">
+                                "I believe that great software is not just about clean code—it's about understanding
+                                people, solving real problems, and creating experiences that feel intuitive and
+                                delightful. Every project is an opportunity to make someone's day a little bit better."
+                            </blockquote>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="serif-heading text-xl font-bold mb-3">TECHNICAL EXPERTISE</h4>
+                                <ul class="typewriter-text space-y-2">
+                                    <li>• Frontend: React, Vue.js, TypeScript</li>
+                                    <li>• Backend: Node.js, Python, PostgreSQL</li>
+                                    <li>• Cloud: AWS, Docker, Kubernetes</li>
+                                    <li>• Design: Figma, Adobe Creative Suite</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="serif-heading text-xl font-bold mb-3">ACHIEVEMENTS</h4>
+                                <ul class="typewriter-text space-y-2">
+                                    <li>• Led 15+ successful project launches</li>
+                                    <li>• Reduced load times by 40% on average</li>
+                                    <li>• Mentored 8 junior developers</li>
+                                    <li>• Speaker at 3 tech conferences</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:col-span-1">
+                        <img src="https://readdy.ai/api/search-image?query=vintage%20black%20and%20white%20photograph%20of%20a%20modern%20workspace%20with%20computer%20setup%2C%20clean%20desk%2C%20natural%20lighting%2C%20editorial%20newspaper%20style%2C%20professional%20environment%2C%201980s%20aesthetic&width=300&height=400&seq=workspace-photo&orientation=portrait"
+                            alt="Workspace" class="w-full vintage-photo object-cover object-top mb-4">
+                        <div class="text-center typewriter-text text-sm mb-4">
+                            The developer's creative workspace
+                        </div>
+                        <div class="classified-box p-4">
+                            <h4 class="serif-heading text-lg font-bold mb-2">QUICK FACTS</h4>
+                            <div class="typewriter-text text-sm space-y-1">
+                                <div>Location: San Francisco, CA</div>
+                                <div>Experience: 6+ Years</div>
+                                <div>Projects: 50+ Completed</div>
+                                <div>Coffee Consumed: Immeasurable</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="mb-16 page-turn">
+            <div class="border-t-4 border-primary pt-8">
+                <div class="mb-8">
+                    <h2 class="serif-heading text-4xl font-black text-primary mb-2">
+                        PROJECT BULLETIN
+                    </h2>
+                    <div class="typewriter-text text-sm text-secondary">
+                        Technology Section • Portfolio Department
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <article class="border-2 border-primary bg-white p-6 page-turn">
+                        <img src="https://readdy.ai/api/search-image?query=modern%20e-commerce%20website%20interface%20displayed%20on%20computer%20screen%2C%20clean%20design%2C%20product%20showcase%2C%20black%20and%20white%20vintage%20newspaper%20photography%20style%2C%20professional%20setup%2C%20high%20contrast&width=400&height=250&seq=ecommerce-project&orientation=landscape"
+                            alt="E-commerce Platform" class="w-full vintage-photo object-cover object-top mb-4">
+                        <h3 class="serif-heading text-2xl font-bold mb-2">MARKETPLACE REVOLUTION</h3>
+                        <div class="typewriter-text text-xs text-secondary mb-3">
+                            E-COMMERCE • REACT • NODE.JS
+                        </div>
+                        <p class="crimson-text text-sm leading-relaxed mb-4">
+                            A comprehensive e-commerce platform serving over 10,000 daily users. Features include
+                            real-time inventory management, advanced search functionality, and seamless payment
+                            integration. Achieved 99.9% uptime and 40% faster load times.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button
+                                class="typewriter-text text-sm font-bold hover:text-secondary transition-colors !rounded-button whitespace-nowrap">
+                                READ MORE →
+                            </button>
+                            <div class="flex space-x-2">
+                                <div class="w-4 h-4 flex items-center justify-center">
+                                    <i class="ri-github-line text-sm"></i>
+                                </div>
+                                <div class="w-4 h-4 flex items-center justify-center">
+                                    <i class="ri-external-link-line text-sm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="border-2 border-primary bg-white p-6 page-turn">
+                        <img src="https://readdy.ai/api/search-image?query=content%20management%20system%20dashboard%20interface%20on%20computer%20screen%2C%20clean%20admin%20panel%20design%2C%20data%20visualization%2C%20black%20and%20white%20vintage%20newspaper%20photography%20style%2C%20professional%20workspace&width=400&height=250&seq=cms-project&orientation=landscape"
+                            alt="CMS Platform" class="w-full vintage-photo object-cover object-top mb-4">
+                        <h3 class="serif-heading text-2xl font-bold mb-2">CONTENT COMMAND CENTER</h3>
+                        <div class="typewriter-text text-xs text-secondary mb-3">
+                            CMS • VUE.JS • PYTHON
+                        </div>
+                        <p class="crimson-text text-sm leading-relaxed mb-4">
+                            A powerful content management system built for media companies. Streamlined editorial
+                            workflows, automated publishing schedules, and advanced analytics dashboard. Used by 5 major
+                            publications with 2M+ monthly readers.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button
+                                class="typewriter-text text-sm font-bold hover:text-secondary transition-colors !rounded-button whitespace-nowrap">
+                                READ MORE →
+                            </button>
+                            <div class="flex space-x-2">
+                                <div class="w-4 h-4 flex items-center justify-center">
+                                    <i class="ri-github-line text-sm"></i>
+                                </div>
+                                <div class="w-4 h-4 flex items-center justify-center">
+                                    <i class="ri-external-link-line text-sm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="border-2 border-primary bg-white p-6 page-turn">
+                        <img src="https://readdy.ai/api/search-image?query=mobile%20application%20interface%20displayed%20on%20smartphone%20and%20tablet%2C%20modern%20app%20design%2C%20user%20interface%20elements%2C%20black%20and%20white%20vintage%20newspaper%20photography%20style%2C%20technology%20showcase&width=400&height=250&seq=mobile-project&orientation=landscape"
+                            alt="Mobile App" class="w-full vintage-photo object-cover object-top mb-4">
+                        <h3 class="serif-heading text-2xl font-bold mb-2">MOBILE INNOVATION</h3>
+                        <div class="typewriter-text text-xs text-secondary mb-3">
+                            MOBILE • REACT NATIVE • FIREBASE
+                        </div>
+                        <p class="crimson-text text-sm leading-relaxed mb-4">
+                            A cross-platform mobile application for fitness tracking and social networking. Features
+                            real-time chat, workout planning, and progress analytics. Downloaded by 50K+ users with
+                            4.8-star rating on app stores.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button
+                                class="typewriter-text text-sm font-bold hover:text-secondary transition-colors !rounded-button whitespace-nowrap">
+                                READ MORE →
+                            </button>
+                            <div class="flex space-x-2">
+                                <div class="w-4 h-4 flex items-center justify-center">
+                                    <i class="ri-github-line text-sm"></i>
+                                </div>
+                                <div class="w-4 h-4 flex items-center justify-center">
+                                    <i class="ri-external-link-line text-sm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="border-2 border-primary bg-white p-6 page-turn">
+                        <img src="https://readdy.ai/api/search-image?query=data%20visualization%20dashboard%20with%20charts%20and%20graphs%20on%20computer%20screen%2C%20analytics%20interface%2C%20business%20intelligence%2C%20black%20and%20white%20vintage%20newspaper%20photography%20style%2C%20professional%20setup&width=400&height=250&seq=analytics-project&orientation=landscape"
+                            alt="Analytics Dashboard" class="w-full vintage-photo object-cover object-top mb-4">
+                        <h3 class="serif-heading text-2xl font-bold mb-2">DATA INTELLIGENCE HUB</h3>
+                        <div class="typewriter-text text-xs text-secondary mb-3">
+                            ANALYTICS • D3.JS • POSTGRESQL
+                        </div>
+                        <p class="crimson-text text-sm leading-relaxed mb-4">
+                            An advanced analytics dashboard for enterprise clients. Real-time data processing,
+                            interactive visualizations, and automated reporting. Processes 1M+ data points daily with
+                            sub-second query response times.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button
+                                class="typewriter-text text-sm font-bold hover:text-secondary transition-colors !rounded-button whitespace-nowrap">
+                                READ MORE →
+                            </button>
+                            <div class="flex space-x-2">
+                                <div class="w-4 h-4 flex items-center justify-center">
+                                    <i class="ri-github-line text-sm"></i>
+                                </div>
+                                <div class="w-4 h-4 flex items-center justify-center">
+                                    <i class="ri-external-link-line text-sm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="border-2 border-primary bg-white p-6 page-turn">
+                        <img src="https://readdy.ai/api/search-image?query=blockchain%20cryptocurrency%20trading%20platform%20interface%20on%20computer%20screen%2C%20financial%20technology%2C%20modern%20web%20application%2C%20black%20and%20white%20vintage%20newspaper%20photography%20style%2C%20professional%20workspace&width=400&height=250&seq=blockchain-project&orientation=landscape"
+                            alt="Blockchain Platform" class="w-full vintage-photo object-cover object-top mb-4">
+                        <h3 class="serif-heading text-2xl font-bold mb-2">BLOCKCHAIN BREAKTHROUGH</h3>
+                        <div class="typewriter-text text-xs text-secondary mb-3">
+                            BLOCKCHAIN • WEB3 • SOLIDITY
+                        </div>
+                        <p class="crimson-text text-sm leading-relaxed mb-4">
+                            A decentralized finance platform enabling secure peer-to-peer transactions. Smart contract
+                            integration, multi-wallet support, and advanced security features. Facilitating $2M+ in
+                            monthly transaction volume.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button
+                                class="typewriter-text text-sm font-bold hover:text-secondary transition-colors !rounded-button whitespace-nowrap">
+                                READ MORE →
+                            </button>
+                            <div class="flex space-x-2">
+                                <div class="w-4 h-4 flex items-center justify-center">
+                                    <i class="ri-github-line text-sm"></i>
+                                </div>
+                                <div class="w-4 h-4 flex items-center justify-center">
+                                    <i class="ri-external-link-line text-sm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="border-2 border-primary bg-white p-6 page-turn">
+                        <img src="https://readdy.ai/api/search-image?query=artificial%20intelligence%20machine%20learning%20interface%20on%20computer%20screen%2C%20AI%20dashboard%2C%20data%20science%20visualization%2C%20black%20and%20white%20vintage%20newspaper%20photography%20style%2C%20technology%20workspace&width=400&height=250&seq=ai-project&orientation=landscape"
+                            alt="AI Platform" class="w-full vintage-photo object-cover object-top mb-4">
+                        <h3 class="serif-heading text-2xl font-bold mb-2">AI AUTOMATION SUITE</h3>
+                        <div class="typewriter-text text-xs text-secondary mb-3">
+                            AI/ML • PYTHON • TENSORFLOW
+                        </div>
+                        <p class="crimson-text text-sm leading-relaxed mb-4">
+                            An intelligent automation platform leveraging machine learning for business process
+                            optimization. Natural language processing, predictive analytics, and automated
+                            decision-making capabilities serving 100+ enterprise clients.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <button
+                                class="typewriter-text text-sm font-bold hover:text-secondary transition-colors !rounded-button whitespace-nowrap">
+                                READ MORE →
+                            </button>
+                            <div class="flex space-x-2">
+                                <div class="w-4 h-4 flex items-center justify-center">
+                                    <i class="ri-github-line text-sm"></i>
+                                </div>
+                                <div class="w-4 h-4 flex items-center justify-center">
+                                    <i class="ri-external-link-line text-sm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="mb-16 page-turn">
+            <div class="border-t-4 border-primary pt-8">
+                <div class="mb-8">
+                    <h2 class="serif-heading text-4xl font-black text-primary mb-2">
+                        CONTACT CLASSIFIEDS
+                    </h2>
+                    <div class="typewriter-text text-sm text-secondary">
+                        Personal Ads • Communication Department
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <div class="classified-box p-6 mb-6">
+                            <h3 class="serif-heading text-2xl font-bold mb-4">SEEKING COLLABORATION</h3>
+                            <div class="crimson-text text-lg leading-relaxed mb-4">
+                                Experienced developer available for exciting projects. Specializing in full-stack web
+                                applications, mobile development, and digital transformation initiatives. Let's build
+                                something amazing together.
+                            </div>
+                            <div class="typewriter-text space-y-2">
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-5 h-5 flex items-center justify-center">
+                                        <i class="ri-mail-line"></i>
+                                    </div>
+                                    <span>sarah.chen.dev@email.com</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-5 h-5 flex items-center justify-center">
+                                        <i class="ri-phone-line"></i>
+                                    </div>
+                                    <span>+1 (555) 123-4567</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-5 h-5 flex items-center justify-center">
+                                        <i class="ri-map-pin-line"></i>
+                                    </div>
+                                    <span>San Francisco, CA</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="classified-box p-6">
+                            <h3 class="serif-heading text-xl font-bold mb-4">SOCIAL CONNECTIONS</h3>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="flex items-center space-x-2 p-3 border border-gray-300 bg-white">
+                                    <div class="w-5 h-5 flex items-center justify-center">
+                                        <i class="ri-linkedin-fill"></i>
+                                    </div>
+                                    <span class="typewriter-text text-sm">LinkedIn Profile</span>
+                                </div>
+                                <div class="flex items-center space-x-2 p-3 border border-gray-300 bg-white">
+                                    <div class="w-5 h-5 flex items-center justify-center">
+                                        <i class="ri-github-fill"></i>
+                                    </div>
+                                    <span class="typewriter-text text-sm">GitHub Portfolio</span>
+                                </div>
+                                <div class="flex items-center space-x-2 p-3 border border-gray-300 bg-white">
+                                    <div class="w-5 h-5 flex items-center justify-center">
+                                        <i class="ri-twitter-fill"></i>
+                                    </div>
+                                    <span class="typewriter-text text-sm">Tech Updates</span>
+                                </div>
+                                <div class="flex items-center space-x-2 p-3 border border-gray-300 bg-white">
+                                    <div class="w-5 h-5 flex items-center justify-center">
+                                        <i class="ri-dribbble-fill"></i>
+                                    </div>
+                                    <span class="typewriter-text text-sm">Design Work</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="classified-box p-6">
+                            <h3 class="serif-heading text-2xl font-bold mb-4">SEND MESSAGE</h3>
+                            <form class="space-y-4">
+                                <div>
+                                    <label class="typewriter-text text-sm font-bold block mb-2">Full Name</label>
+                                    <input type="text"
+                                        class="w-full p-3 border-2 border-gray-300 typewriter-text text-sm focus:border-primary focus:outline-none">
+                                </div>
+                                <div>
+                                    <label class="typewriter-text text-sm font-bold block mb-2">Email Address</label>
+                                    <input type="email"
+                                        class="w-full p-3 border-2 border-gray-300 typewriter-text text-sm focus:border-primary focus:outline-none">
+                                </div>
+                                <div>
+                                    <label class="typewriter-text text-sm font-bold block mb-2">Project Type</label>
+                                    <div class="relative">
+                                        <button type="button"
+                                            class="w-full p-3 border-2 border-gray-300 typewriter-text text-sm text-left bg-white focus:border-primary focus:outline-none pr-8 flex justify-between items-center">
+                                            <span>Select Project Type</span>
+                                            <div class="w-4 h-4 flex items-center justify-center">
+                                                <i class="ri-arrow-down-s-line"></i>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="typewriter-text text-sm font-bold block mb-2">Message</label>
+                                    <textarea rows="4"
+                                        class="w-full p-3 border-2 border-gray-300 typewriter-text text-sm focus:border-primary focus:outline-none resize-none"></textarea>
+                                </div>
+                                <button type="submit"
+                                    class="w-full print-button p-3 typewriter-text font-bold text-primary hover:bg-gray-100 transition-colors !rounded-button whitespace-nowrap">
+                                    SEND MESSAGE
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="border-t-4 border-primary bg-white mt-16">
+        <div class="max-w-7xl mx-auto px-4 py-8">
+            <div class="flex justify-between items-center mb-6">
+                <button
+                    class="print-button px-6 py-3 typewriter-text font-bold text-primary hover:bg-gray-100 transition-all !rounded-button whitespace-nowrap">
+                    <div class="w-5 h-5 flex items-center justify-center inline-block mr-2">
+                        <i class="ri-printer-line"></i>
+                    </div>
+                    PRINT THIS EDITION
+                </button>
+                <div class="typewriter-text text-sm">
+                    Page 1 of 1 • Personal Portfolio Edition
+                </div>
+            </div>
+            <div class="border-t border-gray-300 pt-6">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="serif-heading text-lg font-bold mb-3">PUBLICATION INFO</h4>
+                        <div class="typewriter-text text-sm space-y-1">
+                            <div>Published: Daily</div>
+                            <div>Editor: Sarah Chen</div>
+                            <div>Circulation: Global</div>
+                            <div>Est. 2019</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="serif-heading text-lg font-bold mb-3">NEWSLETTER SUBSCRIPTION</h4>
+                        <div class="flex">
+                            <input type="email" placeholder="Enter your email"
+                                class="flex-1 p-2 border-2 border-gray-300 typewriter-text text-sm focus:border-primary focus:outline-none">
+                            <button
+                                class="px-4 bg-primary text-white typewriter-text text-sm font-bold hover:bg-secondary transition-colors !rounded-button whitespace-nowrap">
+                                SUBSCRIBE
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="serif-heading text-lg font-bold mb-3">CONNECT</h4>
+                        <div class="flex space-x-4">
+                            <div
+                                class="w-8 h-8 flex items-center justify-center border-2 border-primary hover:bg-primary hover:text-white transition-colors cursor-pointer">
+                                <i class="ri-linkedin-fill"></i>
+                            </div>
+                            <div
+                                class="w-8 h-8 flex items-center justify-center border-2 border-primary hover:bg-primary hover:text-white transition-colors cursor-pointer">
+                                <i class="ri-github-fill"></i>
+                            </div>
+                            <div
+                                class="w-8 h-8 flex items-center justify-center border-2 border-primary hover:bg-primary hover:text-white transition-colors cursor-pointer">
+                                <i class="ri-twitter-fill"></i>
+                            </div>
+                            <div
+                                class="w-8 h-8 flex items-center justify-center border-2 border-primary hover:bg-primary hover:text-white transition-colors cursor-pointer">
+                                <i class="ri-mail-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-t border-gray-300 mt-6 pt-4 text-center">
+                    <div class="typewriter-text text-sm text-secondary">
+                        © 2025 The Daily Portfolio. All rights reserved. • Printed in San Francisco, CA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script id="smooth-scroll">
+        document.addEventListener('DOMContentLoaded', function () {
+            const links = document.querySelectorAll('a[href^="#"]');
+            links.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+    <script id="typewriter-effect">
+        document.addEventListener('DOMContentLoaded', function () {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const element = entry.target;
+                        if (element.classList.contains('typewriter-animation')) {
+                            element.style.animation = 'typing 3s steps(40, end), blink-caret 0.75s step-end infinite';
+                        }
+                    }
+                });
+            });
+            const typewriterElements = document.querySelectorAll('.typewriter-animation');
+            typewriterElements.forEach(el => observer.observe(el));
+        });
+    </script>
+    <script id="print-functionality">
+        document.addEventListener('DOMContentLoaded', function () {
+            const printButton = document.querySelector('.print-button');
+            if (printButton) {
+                printButton.addEventListener('click', function () {
+                    window.print();
+                });
+            }
+        });
+    </script>
+    <script id="form-interactions">
+        document.addEventListener('DOMContentLoaded', function () {
+            const selectButton = document.querySelector('button[type="button"]');
+            const form = document.querySelector('form');
+            if (selectButton) {
+                selectButton.addEventListener('click', function () {
+                    const options = ['Web Development', 'Mobile App', 'E-commerce', 'Consulting', 'Other'];
+                    const currentText = this.querySelector('span').textContent;
+                    const currentIndex = options.indexOf(currentText);
+                    const nextIndex = (currentIndex + 1) % options.length;
+                    this.querySelector('span').textContent = options[nextIndex];
+                });
+            }
+            if (form) {
+                form.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    alert('Message sent! Thank you for reaching out.');
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
