@@ -1,5 +1,7 @@
 # thedailyportfolio
 
+Live - https://somensh.github.io/thedailyportfolio
+
 [![Build Status](https://img.shields.io/github/actions/workflow/status/Somensh/thedailyportfolio/main.yml?branch=main)]()
 
 The Daily Times Style Portfolio Website
